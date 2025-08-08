@@ -23,7 +23,12 @@ Features a clean UI, responsive design, and local music playback. Hosted live at
 ---
 
 ## 📷 Screenshots
-Please have a look on website to get a better idea please 😊
+
+<p align="center">
+  <img width="800" alt="OurSpotify Screenshot" src="https://github.com/user-attachments/assets/f48a15aa-a5aa-4fed-9984-7f7d751f7735" />
+</p>
+
+Please have a look on website to get a better idea.
 
 ---
 
@@ -31,3 +36,8 @@ Please have a look on website to get a better idea please 😊
 1. **Clone the repository**
    ```bash
    git clone https://github.com/itz-lakshya/Spotify.git
+
+
+## 📜 Copyright & License
+*"Educational project – Not for commercial use"*
+* All designs are inspired from Spotify Web and also not the exact same
