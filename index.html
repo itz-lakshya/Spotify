@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container grid ">
+        <div class="top flex bg-black">
+
+            <div class="all-logos flex">
+                <div class="logo">
+                    <img src="img/logo.svg" class="logo_icon invert" alt="spotify">
+                </div>
+                <div class="home">
+                    <img src="img/home.svg" class="home_icon invert" alt="HOME">
+                </div>
+                <div class="search">
+                    <img src="img/search.svg" class="search_icon invert" alt="Search">
+                </div>
+            </div>
+
+            <img width="40" class="invert hamburger" src="img/hamburger.svg" alt="Menu">
+
+            <div class="all-buttons flex">
+                <button class="premium btn font">Get Premium</button>
+                <button class="support btn font">Support</button>
+                <button class="download btn font">Download</button>
+                <img src="img/divide_line.svg" class="line_icon invert" alt="|">
+                <button class="signUp btn font">Sign Up</button>
+                <button class="logIn btn font">Log in</button>
+            </div>
+
+        </div>
+
+
+        <div class="mid flex bg-black">
+            <div class="left bg-gray rounded m-1 p-1">
+                <div class="library font p-1">
+                    Your Library
+                </div>
+
+                <div class="close">
+                    <img width="40" class="invert" src="img/close.svg" alt="X">
+                </div>
+
+                <div class="songList scroll-Bar fadeUp">
+                    <ul></ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                    <div><a href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                            rel="noopener"><span>Cookies</span></a></div>
+                </div>
+
+            </div>
+            <div class="right bg-gray rounded m-1 p-1 scroll-Bar">
+                <div class="spotifySongs">
+                    <h1>Trending Songs</h1>
+                    <div class="cardContainer">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="playbar">
+                <div class="playbar-left">
+                    <div class="songinfo"></div>
+                    <div class="songtime"></div>
+                </div>
+
+                <div class="playbar-center">
+                    <div class="songButtons">
+                        <img width="35" id="previous" src="img/prevsong.svg" alt="Previous">
+                        <img width="35" id="play" src="img/play.svg" alt="Play">
+                        <img width="35" id="next" src="img/nextsong.svg" alt="Next">
+                    </div>
+                    <div class="seekBar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+
+                <div class="playbar-right">
+                    <div class="volume-control">
+                        <img class="volume-icon" id="volumeIcon" src="img/volume.svg" alt="Volume">
+                        <div class="volume-slider" id="volumeSlider">
+                            <div class="volume-progress" id="volumeProgress">
+                                <div class="volume-knob"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
