@@ -1,27 +1,29 @@
-# 🎵 OurSpotify – Spotify-Inspired Music Streaming App
+# 🎵 OurSpotify – Music Streaming Web App
 
-A **music streaming web app** inspired by Spotify, built using HTML, CSS, and JavaScript.  
-This project replicates core Spotify-like features such as a clean UI, music controls, and responsive design.
+A **Spotify-inspired music streaming web app** built with HTML, CSS, and JavaScript.  
+Features a clean UI, responsive design, and local music playback. Hosted live at:  
+🌐 **[ourspotify.netlify.app](https://ourspotify.netlify.app/)**
 
 ---
 
 ## 🚀 Features
-- 🎶 Play, pause, and navigate between tracks
-- ⏳ Seek through a song with a progress bar
-- 📱 Fully responsive design for mobile and desktop
-- 🎨 Modern, Spotify-inspired UI
-- 📂 Organized project structure
+- 🎶 Play, pause, skip, and seek through tracks
+- ⏳ Progress bar with real-time updates
+- 📱 Responsive design for all devices
+- 💽 Local music library (20–30 tracks)
+- 🎨 Modern UI inspired by Spotify
 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Design:** Custom CSS styling (Spotify-inspired)
+- **HTML5** – Structure
+- **CSS3** – Styling & layout
+- **JavaScript** – Interactivity & music controls
 
 ---
 
 ## 📷 Screenshots
-Not available :)   Pls have a look on the website instead *🥰*
+Please have a look on website to get a better idea please 😊
 
 ---
 
